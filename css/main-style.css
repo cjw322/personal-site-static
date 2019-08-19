@@ -1,0 +1,111 @@
+
+/************************TAG SELECTORS************************/
+
+/* body {
+  margin: 0;
+} */
+
+form {
+  color: white;
+  font-family: 'Lato', sans-serif;
+
+}
+
+html {
+  /* background: url(main-photo.jpeg) no-repeat center center fixed; */
+  background: url(photos/city-edit.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+h1{
+  color: white;
+  display: inline-block;
+  font-family: 'Poppins', sans-serif;
+  font-size: 600%;
+  font-weight: bolder;
+  margin-top: 0;
+  margin-bottom: 0;
+
+}
+
+h3 {
+  color: white;
+  display: inline-block;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 0;
+}
+
+p {
+  color: white;
+  font-family: 'Lato', sans-serif;
+}
+
+/************************CLASS SELECTORS************************/
+
+.button {
+  background-color: rgb(34, 101, 133);
+  background-color: rgba(34, 69, 125, 0.4);
+  border-style: solid;
+  border-color: white;
+  border-width: medium;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2em;
+  margin-right: 5px;
+  position: relative;
+  padding: 0.5em 1em;
+}
+
+
+
+.button:hover {
+  background: white;
+  border-color: white;
+  border-style: solid;
+  border-width: medium;
+  color: black;
+  opacity: .8;
+}
+
+.center {
+  background-color: rgb(34, 101, 133);
+  background-color: rgba(34, 101, 133, 0.2);
+  display: inline-block;
+  left: 7%;
+  margin-top: -250px; /* Half the height */
+  padding: 10px;
+  position: absolute;
+  top: 60%;
+  /* width:480px; */
+}
+
+.center2 {
+  background-color: rgb(34, 101, 133);
+  background-color: rgba(34, 101, 133, 0.2);
+  display: inline-block;
+  left: 7%;
+  margin-top: -250px; /* Half the height */
+  padding: 10px;
+  position: absolute;
+  top: 60%;
+  /* width: 600px; */
+}
+
+.home {
+  position: absolute;
+  margin-top: 10px;
+  right: 20px;
+}
+
+.icon{
+  /* border-radius: 100%; */
+  height: 30px;
+  margin-right: 7px;
+  width: 30px;
+}
+
+/************************ID SELECTORS************************/

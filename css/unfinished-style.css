@@ -1,0 +1,80 @@
+
+/************************TAG SELECTORS************************/
+
+/* body {
+  margin: 0;
+} */
+
+html {
+  /* background: url(main-photo.jpeg) no-repeat center center fixed; */
+  background: url(photos/beach-sunset.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1, h2, h3, h4, h5, p, form {
+  color: white;
+}
+
+h1, h3 {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1{
+  display: inline-block;
+  font-size: 600%;
+  font-weight: bolder;
+  margin-top: 0;
+  margin-bottom: 0;
+
+}
+
+h3 {
+  display: inline-block;
+  margin-top: 0;
+}
+
+h5, p, form {
+  font-family: 'Lato', sans-serif;
+}
+
+/************************CLASS SELECTORS************************/
+
+
+
+.center {
+  /* background-color: rgba(256, 256, 256, .2); */
+  background-color: rgba(0, 0, 0, .15);
+  border-style: solid;
+  border-color: rgba(256, 256, 256, .2);
+  border-width: medium;
+  padding: 5%;
+  position: absolute;
+  text-align: center;
+  top: 15%;
+}
+
+.home {
+  border-color: white;
+  border-width: medium;
+  background-color: rgba(0, 0, 0, .2);
+  color: white;
+  font-size: 1.5rem;
+  margin-right: 2%;
+}
+
+.home:hover {
+  background-color: white;
+  color: black;
+}
+
+.icon{
+  /* border-radius: 100%; */
+  height: 30px;
+  margin-right: 7px;
+  width: 30px;
+}
+
+/************************ID SELECTORS************************/
