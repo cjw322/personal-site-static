@@ -96,6 +96,7 @@ p {
 }
 
 .home {
+  font-size: 2rem;
   position: absolute;
   margin-top: 10px;
   right: 20px;
