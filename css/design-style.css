@@ -5,11 +5,6 @@ body {
   min-height: 100vh;
 }
 
-form {
-  color: white;
-  font-family: 'Lato', sans-serif;
-
-}
 
 html {
   /* background: url(main-photo.jpeg) no-repeat center center fixed; */
@@ -20,35 +15,30 @@ html {
   background-size: cover;
 }
 
+h1, h2, h3, p {
+  color: white;
+}
+
+h1, h2, h3 {
+  font-family: 'Poppins', sans-serif;
+}
 
 h1{
-  bottom: 4%;
-  color: white;
   display: inline-block;
-  font-family: 'Poppins', sans-serif;
   font-size: 600%;
   font-weight: bolder;
-  margin: 30px;
-  position: absolute;
-
 }
 
 h2 {
-  color: white;
   display: inline-block;
-  font-family: 'Poppins', sans-serif;
   font-size: 400%;
-  margin-top: 40%;
 }
 
 h3{
-  color: white;
-  font-family: 'Poppins', sans-serif;
   font-size: 200%;
 }
 
 p {
-  color: white;
   font-family: 'Lato', sans-serif;
 }
 
@@ -80,6 +70,21 @@ p {
   color: black;
 }
 
+.intro-headings {
+  margin-top: 40%;
+}
+
+.intro-title {
+  bottom: 4%;
+  font-weight: bolder;
+  margin: 30px;
+  position: absolute;
+}
+
+.page-title {
+  margin: auto;
+}
+
 .second {
   bottom: 30px;
   /* margin-top: 20px; */
@@ -88,10 +93,6 @@ p {
   position: absolute;
   right: 30px;
   top: 90px;
-}
-
-.title {
-  display: inline-block;
 }
 
 /************************ID SELECTORS************************/

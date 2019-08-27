@@ -7,7 +7,9 @@ body {
 
 form, p {
   color: white;
+
   font-family: 'Lato', sans-serif;
+
 }
 
 html {
@@ -26,6 +28,7 @@ h1, h2, h3 {
 }
 
 h1{
+  margin: 20px;
   font-size: 600%;
   font-weight: bolder;
 }
@@ -41,6 +44,30 @@ h3{
 
 /************************CLASS SELECTORS************************/
 
+.box {
+  position: absolute;
+
+  display: inline-block;
+
+  width: 25%;
+  height: 20%;
+  padding: 10px 20px 10px 20px;
+
+  border-width: thick;
+  border-style: solid;
+  border-color: white;
+  background-color: rgba(0, 0, 0, .05);
+}
+
+.box:hover{
+  background-color: rgba(255, 255, 255, .2);
+}
+
+.first {
+  bottom: 45%;
+
+  margin-left: 15%;
+}
 
 .home {
   position: absolute;
@@ -49,8 +76,17 @@ h3{
   margin-top: 10px;
 }
 
-.title {
+.second {
+  bottom: 40%;
+
   margin-left: 50%;
 }
+
+.third {
+  bottom: 10%;
+
+  margin-left: 30%;
+}
+
 
 /************************ID SELECTORS************************/
