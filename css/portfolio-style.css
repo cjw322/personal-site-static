@@ -5,7 +5,9 @@ body {
   min-height: 100vh;
 }
 
-
+a {
+  text-decoration: none;
+}
 
 h1, h2, h3, p {
   background-color: white;
@@ -37,7 +39,7 @@ hr {
   height: 5px;
   margin-bottom: 3%;
   margin-left: 0;
-  width: 40%;
+  width: 25%;
 }
 
 p {
