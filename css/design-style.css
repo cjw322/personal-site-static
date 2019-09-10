@@ -70,6 +70,10 @@ p {
   color: black;
 }
 
+.home:hover {
+  text-decoration: underline;
+}
+
 .intro-headings {
   margin-top: 40%;
 }

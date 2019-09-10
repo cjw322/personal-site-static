@@ -104,6 +104,10 @@ ul {
   right: 20px;
 }
 
+.home:hover {
+  text-decoration: underline;
+}
+
 .list-heading{
   background-color: white;
   display: inline-block;
@@ -194,7 +198,7 @@ ul {
 }
 
 .pdf-box:hover {
-  color: black;
+  text-decoration: underline;
 }
 
 .resume-heading {
